@@ -1,0 +1,43 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+}
+#Body-UI{
+    display: block;
+    text-align: center;
+    padding-top: 8em;
+}
+#Body-UI > form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+textarea[type="text"]{
+    width: 50em;
+}
+.title{
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 13em;
+    font-size: 2em;
+    color: teal;
+    border-bottom: 1px solid teal;
+}
+
+@media screen and (max-width:375px){
+    #Body-UI{
+        display: block;
+        text-align: center;
+        padding-top: 4em;
+    }
+    textarea[type="text"]{
+        width: 22em;
+    }
+    .title{
+        margin: 0 auto;
+        margin-bottom: 1em;
+        width: 10em;
+        font-size: 2em;
+        color: teal;
+        border-bottom: 1px solid teal;
+    }
+}
